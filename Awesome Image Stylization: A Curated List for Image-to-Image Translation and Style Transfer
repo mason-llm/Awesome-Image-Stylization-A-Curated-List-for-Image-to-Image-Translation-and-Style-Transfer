@@ -2,24 +2,6 @@ This "awesome list" provides a curated collection of resources for developers, r
 
 The list encompasses seminal research papers that have laid the groundwork for the field, popular open-source projects that allow for hands-on experience, essential datasets for training and evaluating models, and insightful tutorials to guide you through the foundational concepts.
 
-Contents
-Papers
-
-Seminal Papers
-
-Further Reading
-
-Projects
-
-Frameworks and Libraries
-
-Implementations
-
-Datasets
-
-Tutorials
-
-References
 
 Papers
 This section highlights the foundational and influential research papers that have shaped the landscape of image stylization.
@@ -27,11 +9,7 @@ This section highlights the foundational and influential research papers that ha
 Seminal Papers
 A Neural Algorithm of Artistic Style by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge (2015). This is the pioneering work that introduced the concept of using convolutional neural networks to separate and recombine the content and style of images, laying the foundation for neural style transfer.
 
-Link to paper
-
 BibTeX:
-
-代码段
 
 @article{gatys2015neural,
   title={A neural algorithm of artistic style},
@@ -41,11 +19,7 @@ BibTeX:
 }
 Image-to-Image Translation with Conditional Adversarial Networks by Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, and Alexei A. Efros (2017). This paper introduced the "pix2pix" framework, a general-purpose solution for image-to-image translation problems using conditional GANs, demonstrating remarkable results on a variety of tasks.
 
-Link to paper
-
 BibTeX:
-
-代码段
 
 @inproceedings{isola2017image,
   title={Image-to-image translation with conditional adversarial networks},
@@ -56,12 +30,6 @@ BibTeX:
 }
 Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks by Jun-Yan Zhu, Taesung Park, Phillip Isola, and Alexei A. Efros (2017). This paper introduced CycleGAN, a groundbreaking method for training image-to-image translation models without the need for paired training data, enabling a wide range of new applications.
 
-Link to paper
-
-BibTeX:
-
-代码段
-
 @inproceedings{zhu2017unpaired,
   title={Unpaired image-to-image translation using cycle-consistent adversarial networks},
   author={Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A},
@@ -70,12 +38,6 @@ BibTeX:
   year={2017}
 }
 Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization by Xun Huang and Serge Belongie (2017). This work proposed a method to achieve real-time arbitrary style transfer, allowing for the stylization of an image with any given style image, a significant advancement over previous methods that were often limited to a single style.
-
-Link to paper
-
-BibTeX:
-
-代码段
 
 @inproceedings{huang2017arbitrary,
   title={Arbitrary style transfer in real-time with adaptive instance normalization},
